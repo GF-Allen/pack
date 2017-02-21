@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alen/code/c/pack/main.c
+stdio.h
+-
+pack.h
+/Users/alen/code/c/pack/pack.h
+
+/Users/alen/code/c/pack/pack.c
+pack.h
+/Users/alen/code/c/pack/pack.h
+
+/Users/alen/code/c/pack/pack.h
+stdio.h
+-
+stdarg.h
+-
+string.h
+-
+stdlib.h
+-
+
